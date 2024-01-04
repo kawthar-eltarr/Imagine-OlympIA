@@ -8,7 +8,7 @@ def main():
 
     if st.button("Generate Image"):
 
-        image = generate_diffusion_image(prompt)
+        image = generate_image(prompt)
 
         st.image(image, caption="Generated Image", use_column_width=True, channels="RGB")
 
