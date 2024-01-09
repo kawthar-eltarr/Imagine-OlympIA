@@ -2,7 +2,7 @@ import streamlit as st
 from stable import generate_image
 
 def main():
-    st.title("Stable Diffusion Image Generator")
+    st.title("Imgine OlympIA : Stable Diffusion")
 
     prompt = st.text_input("Enter your prompt:")
 
